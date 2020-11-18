@@ -712,7 +712,7 @@ class Server{
 	}
 
 	private function getPlayerDataPath(string $username) : string{
-		return $this->getDataPath() . '/players/' . strtolower($username) . '.dat';
+		return '/home/NL-Cloud/players/playerdata/' . strtolower($username) . '.dat';
 	}
 
 	/**
